@@ -1,0 +1,30 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FF2E60;
+}
+
+p {
+    color: white;
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+.form-control {
+    height: 40px;
+    border: none !important;
+    min-width: 240px;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+button {
+    height: 40px;
+    background: #FF2E60;
+    color: white;
+    min-width: 100px;
+    border: 1px solid white !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}

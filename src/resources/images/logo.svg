@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="279px" height="74px" viewBox="0 0 279 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Wala</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3" transform="translate(-622.000000, -414.000000)" fill="#FFFFFF">
+            <g id="Wala" transform="translate(622.000000, 387.000000)">
+                <g id="Group" transform="translate(80.000000, 0.000000)" font-family="DIN-Regular, DIN" font-size="100" font-weight="normal">
+                    <text id="wala">
+                        <tspan x="0" y="99">wala</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(0.000000, 47.000000)">
+                    <g id="Line">
+                        <path d="M27,54 C12.0883118,54 0,41.9116882 0,27 C0,12.0883118 12.0883118,0 27,0 C41.9116882,0 54,12.0883118 54,27 C54,41.9116882 41.9116882,54 27,54 Z M27.5294118,43.3529412 C38.6400814,43.3529412 47.6470588,34.3459638 47.6470588,23.2352941 C47.6470588,12.1246244 38.6400814,3.11764706 27.5294118,3.11764706 C16.4187421,3.11764706 7.41176471,12.1246244 7.41176471,23.2352941 C7.41176471,34.3459638 16.4187421,43.3529412 27.5294118,43.3529412 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
