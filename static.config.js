@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default {
+    // siteRoot: 'https://wala.energy',
     getSiteData: () => ({
         title: 'Wala',
     }),
@@ -58,43 +59,5 @@ export default {
                 <Body>{children}</Body>
             </Html>
         )
-    },
-
-    // loader for sass
-    // https://react-static.js.org/config
-     webpack: (config, { defaultLoaders, stage }) => {
-        if (stage === 'node') {
-            return config
-        } else {
-            config.module.rules = [{
-            oneOf: [{
-                    test: /\.s(a|c)ss$/,
-                    use: stage === 'dev' ? [{ loader: 'style-loader' }, { loader: 'css-loader' }, { loader: 'sass-loader' }] : ExtractTextPlugin.extract({
-                        use: [{
-                                loader: 'css-loader',
-                                options: {
-                                    importLoaders: 1,
-                                    minimize: true,
-                                    sourceMap: false,
-                                },
-                            },
-                            {
-                                loader: 'sass-loader',
-                                options: {
-                                    includePaths: ['src/']
-                                },
-                            },
-                        ],
-                    }),
-                },
-                defaultLoaders.cssLoader,
-                defaultLoaders.jsLoader,
-                defaultLoaders.fileLoader,
-            ],
-        }, 
-    ]
-        return config
-
-        }
     },
 }
