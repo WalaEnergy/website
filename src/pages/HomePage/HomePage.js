@@ -1,12 +1,12 @@
 import React from 'react'
 import { Form, FormGroup, FormControl, Button } from 'react-bootstrap'
 
-import logo from '../../resources/images/logo.svg'
+import logo from '../../resources/images/logo.png'
 
 export default () => (
   <div style={{ height: '100%', textAlign: 'center' }}>
   	<div>
-  		<img style={{ paddingTop: '280px' }} src={logo} />
+  		<img style={{ paddingTop: '310px', width: '300px' }} src={logo} />
   		<p>Join the revolution. 100% renewable.</p>
 {/*  		<Form inline style={{ justifyContent: 'center' }}>
             <FormGroup>
