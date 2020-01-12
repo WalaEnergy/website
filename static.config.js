@@ -6,9 +6,18 @@ export default {
         title: 'Wala',
     }),
     getRoutes: async() => {
-        return [{
+        return [
+            {
                 path: '/',
                 component: 'src/pages/HomePage/HomePage',
+            },
+            {
+                path: '/about',
+                component: 'src/pages/AboutPage/AboutPage',
+            },
+            {
+                path: '/careers',
+                component: 'src/pages/CareersPage/CareersPage',
             },
             {
                 is404: true,
@@ -31,7 +40,7 @@ export default {
                     <meta name="description" content="Join the revolution. 100% renewable." />
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <meta name="keywords" content="energy, renewables" />
-                    <meta name="author" content="Empower Finance, Inc." />
+                    <meta name="author" content="Wala Energy, Inc." />
                     <meta name="theme-color" content="#ffffff" />
 
                     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
@@ -53,7 +62,7 @@ export default {
                     <meta name="twitter:title" content={meta.title} />
                     <meta name="twitter:description" content={meta.desc} />
                     <meta name="twitter:image" content={meta.image} />
-                    <meta name="twitter:site" content="@empowermeapp" />
+                    <meta name="twitter:site" content="@    " />
                     <meta name="twitter:creator" content="@empowermeapp" />
                 </Head>
                 <Body>{children}</Body>
