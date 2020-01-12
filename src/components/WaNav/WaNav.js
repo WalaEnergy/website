@@ -3,11 +3,13 @@ import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap'
 
 import logo from '../../resources/images/logo.png'
 
+import './WaNav.css'
+
 export default class WaNav extends Component {
 	render() {
 		return(
 			<Container>
-			  <Navbar collapseOnSelect expand="lg">
+			  <Navbar collapseOnSelect expand="lg" sticky="top">
 			    <Navbar.Brand href="/">WALA</Navbar.Brand>
 			    <Navbar.Collapse id="responsive-navbar-nav">
 			      <Nav className="mr-auto">
